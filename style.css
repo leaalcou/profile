@@ -1,0 +1,98 @@
+
+
+/* Importer une font pour les titres */
+
+/* 1. Fonts et generics */
+
+/* Police utilisé, couleur de tes elements (police, icones)*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+  background:#740938;
+  font-size: medium;
+  color: #740938;
+  font-family:"Montserrat", sans-serif;
+  line-height:1,5;
+  font-weight: 300;
+  text-align: center;
+}
+
+
+h1 {
+  font-family:"Montserrat", sans-serif;
+  font-size: 32px;
+  line-height: 1.5
+
+}
+
+h2, h3 {
+  font-size: 24px;
+  text-align: center;
+
+}
+
+a {
+  color: #CC2B52;
+  text-decoration: #CC2B52;
+  border: 10px;
+  background-color: #CC2B52;
+  border-radius: 10px ;
+}
+
+a:hover{
+  background-color: #FFE1FF;
+}
+
+.img-circle {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card {
+  background-color: #FFE1FF;
+  padding: 40px;
+  margin: 20px 0px;
+  border-radius: 25px;
+}
+.container {
+  width: 900px;   /* Définit la largeur */
+  margin: 0 auto; /* Définit automatiquement les marges à gauche/droite */
+  border-radius: 30px;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-inline-start: 0px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
